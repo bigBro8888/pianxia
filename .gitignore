@@ -1,0 +1,10 @@
+downloads/*
+!downloads/.gitkeep
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.DS_Store
+*.part
+*.ytdl
