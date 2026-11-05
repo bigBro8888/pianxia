@@ -1,0 +1,11 @@
+services:
+  pianxia:
+    build: .
+    container_name: pianxia
+    ports:
+      - "8765:8765"
+    volumes:
+      - ./downloads:/app/downloads
+    restart: unless-stopped
+    environment:
+      - PORT=8765
